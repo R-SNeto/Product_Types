@@ -22,13 +22,17 @@ Demonstrar na prática como utilizar herança e polimorfismo para tratar diferen
 Product_Types/
 │
 ├── application/
-│   └── Main.java
+│   ├── Main.java
 │   └── MainUI.java   
 │
 ├── entities/
 │   ├── Product.java
 │   ├── UsedProduct.java
 │   └── ImportedProduct.java
+|
+├── entities_enums/
+│   └── ProductType.java
+
 ```
 ## 🚀 Funcionalidades
 - Cadastro de produtos
