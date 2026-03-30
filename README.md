@@ -22,7 +22,8 @@ Demonstrar na prática como utilizar herança e polimorfismo para tratar diferen
 Product_Types/
 │
 ├── application/
-│   └── Program.java
+│   └── Main.java
+│   └── MainUI.java   
 │
 ├── entities/
 │   ├── Product.java
@@ -79,12 +80,16 @@ To demonstrate how inheritance and polymorphism can be used to handle different 
 Product_Types/
 │
 ├── application/
-│   └── Program.java
+│   └── Main.java
+│   └── MainUI.java   
 │
 ├── entities/
 │   ├── Product.java
 │   ├── UsedProduct.java
 │   └── ImportedProduct.java
+|
+├── entities_enums/
+|   ├── ProductType.java
 ```
 
 ---
